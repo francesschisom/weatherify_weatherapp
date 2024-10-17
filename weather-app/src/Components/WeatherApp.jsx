@@ -4,6 +4,7 @@ import rainy from '../assets/images/rainy.png'
 import snowy from '../assets/images/snowy.png'
 
 const WeatherApp = () => {
+    const api_key = "0c3f683e2577f800f5a0b2816138d08f"
   return (
     <div className="container">
         <div className="weather-app">
@@ -18,7 +19,7 @@ const WeatherApp = () => {
                 </div>
             </div>
             <div className="weather">
-                <img src="{sunny}" alt="sunny" />
+                <img src={sunny} alt="sunny" />
                 <div className="weather-type">Clear</div>
                 <div className="temp">28°</div>
             </div>
