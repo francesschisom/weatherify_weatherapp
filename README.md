@@ -8,19 +8,33 @@ WeatherApp is a React-based web application designed to fetch and display real-t
 
  - <a href="https://github.com/francesschisom/weatherify_weatherapp/blob/main/README.md#technologies-used">Technologies used</a>
 
- hfhsjgdvfjfdjkvb
+- <a href="https://github.com/francesschisom/weatherify_weatherapp/blob/main/README.md#features">Features</a>
 
- gdhgjsdjgfjfg
+- <a href="https://github.com/francesschisom/weatherify_weatherapp/blob/main/README.md#installations">Installations</a>
 
- dhgdfhjfhfjgjf
+- <a href="https://github.com/francesschisom/weatherify_weatherapp/blob/main/README.md#development-process">Development Process</a>
 
- gdsydsdsgdf
+- <a href="https://github.com/francesschisom/weatherify_weatherapp/blob/main/README.md#usage-instructions">Usage-Instructions</a>
 
- dghdhgdjhfjh
+- <a href="https://github.com/francesschisom/weatherify_weatherapp/blob/main/README.md#css-styling">CSS Styling</a>
 
- gugugugig
- 
- vvhmhhjjhhgg
+- <a href="https://github.com/francesschisom/weatherify_weatherapp/blob/main/README.md#api-intergration">API Intergration</a>
 
+- <a href="https://github.com/francesschisom/weatherify_weatherapp/blob/main/README.md#future-improvements">Future Improvements</a>
 
  ## Technologies used
+
+## Features
+
+## Installations
+
+## Development Process
+
+## Usage Instructions
+
+## CSS Styling
+
+## API Intergration
+
+## Future Improvements
+
