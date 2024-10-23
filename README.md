@@ -4,6 +4,8 @@ WeatherApp is a React-based web application designed to fetch and display real-t
 
  <a href="https://www.youtube.com/watch?v=r4bw6uGxC4Y">View Demo</a>
 
- ## íº© Table of Contents
+ ## Table of Contents
 
  - [Technologies used](#-Technologies used)
+
+ ## Technologies used
