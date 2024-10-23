@@ -24,6 +24,22 @@ WeatherApp is a React-based web application designed to fetch and display real-t
 
  ## Technologies used
 
+-  **React:** A JavaScript library for building interactive user interfaces.
+
+-  **Vite:** A fast build tool and development server for modern web projects.
+
+-  **CSS (Custom Styling):** Used for responsive and adaptive styling of the application.
+
+-  **Weather API:** Used to fetch real-time weather data based on user location or city search.
+
+-  **JavaScript (ES6+):** For handling logic and interactivity.
+
+-  **Git:** Version control system for managing the codebase.
+
+-  **Axios/Fetch:** For handling API requests.
+
+-  **npm:** Node package manager to manage dependencies and scripts.
+
 ## Features
 
 ## Installations
