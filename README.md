@@ -42,9 +42,24 @@ WeatherApp is a React-based web application designed to fetch and display real-t
 
 ## Features
 
+- **Real-Time Weather Data:** Fetches current weather conditions for any location based on user input or geolocation.
+
+- **City Search:** Users can manually search for the weather by city name.
+
+- **Weather Forecast:** Displays weather forecast with temperature, humidity, wind, and weather conditions.
+
+- **Loading States:** Shows an animated loader while weather data is being fetched.
+
+- **Error Handling:** Displays meaningful error messages for incorrect city names or API failures.
+
+- **Responsive Design:** Optimized for various screen sizes (mobile, tablet, desktop).
+
 ## Installations
 
+
+
 ## Development Process
+
 
 ## Usage Instructions
 
