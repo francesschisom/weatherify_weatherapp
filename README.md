@@ -9,9 +9,18 @@ WeatherApp is a React-based web application designed to fetch and display real-t
  - <a href="https://github.com/francesschisom/weatherify_weatherapp/blob/main/README.md#technologies-used">Technologies used</a>
 
  hfhsjgdvfjfdjkvb
+
  gdhgjsdjgfjfg
+
  dhgdfhjfhfjgjf
+
  gdsydsdsgdf
+
  dghdhgdjhfjh
+
+ gugugugig
+ 
+ vvhmhhjjhhgg
+
 
  ## Technologies used
