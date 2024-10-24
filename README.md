@@ -60,6 +60,11 @@ WeatherApp is a React-based web application designed to fetch and display real-t
 
 ## Development Process
 
+1. **Initial Setup**
+
+- The project was initialized using Vite for a faster, streamlined development experience.
+
+- React components are used to build a modular and reusable UI.
 
 ## Usage Instructions
 
