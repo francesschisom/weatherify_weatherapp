@@ -66,13 +66,13 @@ WeatherApp is a React-based web application designed to fetch and display real-t
 
 - React components are used to build a modular and reusable UI.
 
-2. **API Integration**
+2. **Weather Data Integration**
 
-- Weather data is fetched from an external weather API (e.g., OpenWeatherMap).
+- OpenWeatherMap API was integrated to fetch real-time weather information.
 
-- The API request is handled using Axios for cleaner syntax and error handling.
+-  Data is fetched based on either the user’s location (default location) or a manual city search.
 
-- API data is stored in the component’s state using React’s useState hook and is updated dynamically based on user actions.
+-  Error handling is implemented to manage failed requests or incorrect input (e.g., “City not found”).
 
 3. **State Management**
 

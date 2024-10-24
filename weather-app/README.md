@@ -60,6 +60,35 @@ WeatherApp is a React-based web application designed to fetch and display real-t
 
 ## Development Process
 
+1. **Initial Setup**
+
+- The project was initialized using Vite for a faster, streamlined development experience.
+
+- React components are used to build a modular and reusable UI.
+
+2. **Weather Data Integration**
+
+- OpenWeatherMap API was integrated to fetch real-time weather information.
+
+-  Data is fetched based on either the user’s location (default location) or a manual city search.
+
+-  Error handling is implemented to manage failed requests or incorrect input (e.g., “City not found”).
+
+3. **State Management**
+
+- React’s useState and useEffect hooks are utilized to manage application state for user input, API data, and loading/error states.
+
+- The app optimizes API requests to minimize unnecessary re-fetching of weather data.
+
+4. **Component Design**
+
+- SearchBar Component: Handles user input and triggers weather data fetch on search.
+
+- CurrentWeather Component: Displays current weather details (temperature, humidity, weather condition).
+
+- Forecast Component: Shows the day weather forecast.
+
+- Loading and Error Components: Used to display loading indicators and error messages.
 
 ## Usage Instructions
 
