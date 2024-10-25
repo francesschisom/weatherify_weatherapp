@@ -71,7 +71,7 @@ WeatherApp is a React-based web application designed to fetch and display real-t
 1. **Clone the repository:**
 
 ```bash
-   git clone "https://github.com/francesschisom/weatherify_weatherapp.git"
+   git clone https://github.com/francesschisom/weatherify_weatherapp.git
    cd weatherify_app
    ```
 
