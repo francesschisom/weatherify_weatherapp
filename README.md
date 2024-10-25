@@ -42,13 +42,15 @@ WeatherApp is a React-based web application designed to fetch and display real-t
 
 ## Features
 
-- **Real-Time Weather Data:** Fetches current weather conditions for any location based on user input or geolocation.
+- **Real-Time Weather Data:** Fetches current weather conditions for any location based on user input.
 
 - **City Search:** Users can manually search for the weather by city name.
 
 - **Weather Forecast:** Displays weather forecast with temperature, humidity, wind, and weather conditions.
 
-- **Loading States:** Shows an animated loader while weather data is being fetched.
+- **Dynamic Background:** Change the background color or image based on the weather conditions (sunny, rainy, snowy, etc.).
+
+- **Loading States:** Shows an animated loader (loading GIF) while weather data is being fetched.
 
 - **Error Handling:** Displays meaningful error messages for incorrect city names or API failures.
 
@@ -64,7 +66,7 @@ WeatherApp is a React-based web application designed to fetch and display real-t
 
 - The project was initialized using Vite for a faster, streamlined development experience.
 
-- React components are used to build a modular and reusable UI.
+- React components were used to build a modular and reusable UI.
 
 2. **Weather Data Integration**
 
@@ -82,17 +84,34 @@ WeatherApp is a React-based web application designed to fetch and display real-t
 
 4. **Component Design**
 
-- SearchBar Component: Handles user input and triggers weather data fetch on search.
+- **SearchBar Component:** Handles user input and triggers weather data fetch on search.
 
-- CurrentWeather Component: Displays current weather details (temperature, humidity, weather condition).
+- **CurrentWeather Component:** Displays current weather details (temperature, humidity, weather condition).
 
-- Forecast Component: Shows the day weather forecast.
+- **Forecast Component:** Shows the day weather forecast.
 
-- Loading and Error Components: Used to display loading indicators and error messages.
+- **Loading and Error Components:** Used to display loading indicators and error messages.
 
 ## Usage Instructions
 
+1. **Searching for a City**
+
+- Enter a city name in the search bar, press Enter or click the search button to get weather data.
+
+- The app will display the current weather condition, temperature, humidity and windspeed of the location manually inputed in the search bar.
+
 ## CSS Styling
+
+1. **Responsive Design**
+
+- The CSS for the weather app is fully responsive, ensuring that the app adapts to different screen sizes, including mobile, tablet, and desktop.
+
+- Flexbox and media queries are used extensively to handle layout adjustments.
+
+2. **Custom Animations and Styling**
+
+- Gradients and CSS animations are applied to elements such as the weather icons and background.
+Loading states (loading GIF) are styled with custom animations, enhancing user experience while data is being fetched.
 
 ## API Intergration
 
