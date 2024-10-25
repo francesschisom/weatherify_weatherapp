@@ -38,6 +38,8 @@ WeatherApp is a React-based web application designed to fetch and display real-t
 
 -  **Await/Fetch:** For handling API requests.
 
+-  **Node.js:** Used to create node modules for the application.
+
 -  **npm:** Node package manager to manage dependencies and scripts.
 
 ## Features
@@ -58,6 +60,41 @@ WeatherApp is a React-based web application designed to fetch and display real-t
 
 ## Installations
 
+**Pre-requisites**
+
+- Node.js (version 14+)
+
+- npm 
+
+**Setup Process**
+
+1. **Clone the repository:**
+
+```bash
+   git clone "https://github.com/francesschisom/weatherify_weatherapp.git"
+   cd weatherify_app
+   ```
+
+2. **Scaffold the project using Vite:**
+
+```bash
+   npm create vite@latest weather-app template-- --react
+   cd weather-app
+   ```
+
+3. **Install dependencies:** Install all necessary project dependencies using npm:
+
+```bash
+   npm install
+   ```
+
+4. **Run the development server:** Use Vite’s dev server to launch the application in development mode:
+
+```bash
+   npm run dev
+   ```
+
+5. **Access the application:** Once the server starts, open the browser at http://localhost:5173 to view the application.
 
 
 ## Development Process
@@ -124,4 +161,11 @@ The app fetches weather data from an external weather API. The following details
 - **Await/Fetch:** await  was used to handle API requests and responses, making it easier to manage promises and errors.
 
 ## Future Improvements
+
+1. I am looking forward to further implement this application to be able to provide a 7-days weather forecast including high/low temperatures and weather conditions for each day.
+
+2. I am also considering providing additional weather data like air pressure, visibility, and UV index. 
+
+3. Addressing the issue of unit conversion to allow users to toggle between Celsius and Fahrenheit for temperature units.
+
 
