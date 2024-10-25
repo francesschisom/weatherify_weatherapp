@@ -36,7 +36,7 @@ WeatherApp is a React-based web application designed to fetch and display real-t
 
 -  **Git:** Version control system for managing the codebase.
 
--  **Axios/Fetch:** For handling API requests.
+-  **Await/Fetch:** For handling API requests.
 
 -  **npm:** Node package manager to manage dependencies and scripts.
 
@@ -46,7 +46,7 @@ WeatherApp is a React-based web application designed to fetch and display real-t
 
 - **City Search:** Users can manually search for the weather by city name.
 
-- **Weather Forecast:** Displays weather forecast with temperature, humidity, wind, and weather conditions.
+- **Weather Forecast:** Dynamically displays weather forecast with temperature, humidity, wind, and weather conditions.
 
 - **Dynamic Background:** Change the background color or image based on the weather conditions (sunny, rainy, snowy, etc.).
 
@@ -106,14 +106,22 @@ WeatherApp is a React-based web application designed to fetch and display real-t
 
 - The CSS for the weather app is fully responsive, ensuring that the app adapts to different screen sizes, including mobile, tablet, and desktop.
 
-- Flexbox and media queries are used extensively to handle layout adjustments.
+- Flexbox and media queries were used extensively to handle layout adjustments.
 
 2. **Custom Animations and Styling**
 
-- Gradients and CSS animations are applied to elements such as the weather icons and background.
-Loading states (loading GIF) are styled with custom animations, enhancing user experience while data is being fetched.
+- Gradients and CSS animations were applied to elements such as the weather icons and background.
+Loading states (loading GIF) was styled with custom animations, enhancing user experience while data is being fetched.
 
 ## API Intergration
+
+The app fetches weather data from an external weather API. The following details are important for successful integration:
+
+- **API Used:** OpenWeatherMap
+
+- **API Key:** The API key was securely managed through environment variables. 
+
+- **Await/Fetch:** await  was used to handle API requests and responses, making it easier to manage promises and errors.
 
 ## Future Improvements
 
