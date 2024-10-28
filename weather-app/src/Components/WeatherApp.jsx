@@ -139,7 +139,7 @@ const WeatherApp = () => {
                 : null,
           }}
         >
-          `The weather app container displays the search section, weather information, and additional data based on the fetched data and loading state`
+         
             <div className="search">
               
                 <div className="search-top">
